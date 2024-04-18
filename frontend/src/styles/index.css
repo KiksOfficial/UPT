@@ -1,1 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #95adbe;
+  }
+
+.navbar-btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: #3c2a4d;
+    color: #e0f0ea;
+}
+
+.navbar-btn:hover{
+    color:blue;
+    background-color: white;
+}
+  
+  .left {
+    margin-right: auto;
+  }
+  
+  .right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .right h1 {
+    margin: 0;
+  }
+
+@media screen and (max-width:600px) {
+    
+}

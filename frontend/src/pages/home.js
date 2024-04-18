@@ -1,8 +1,10 @@
-import '../styles/index.css'
+import Navbar from '../navbar.js'
 
 function Home() {
   return (
-      <h1>Hello world</h1>
+      <>
+      <Navbar />
+      </>
   )
 };
 

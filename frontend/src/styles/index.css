@@ -9,6 +9,7 @@ body{
     align-items: center;
     padding: 20px;
     background-color: #95adbe;
+    position: fixed;
   }
 
 .navbar-btn {

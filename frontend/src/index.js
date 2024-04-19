@@ -1,11 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import Home from './pages/home.js';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/home';
+import Kontaktid from './pages/kontaktid';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>
-);
+ReactDOM.render(
+  <Router>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/kontaktid" element={<Kontaktid />} />
+    </Routes>
+  </Router>,
+  document.getElementById('root')
+)

@@ -9,7 +9,6 @@ body{
     align-items: center;
     padding: 20px;
     background-color: #95adbe;
-    position: fixed;
   }
 
 .navbar-btn {
@@ -39,6 +38,40 @@ body{
   
   .right h1 {
     margin: 0;
+  }
+
+  .footer{
+    background-color: #3c2a4d;
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+
+  .footer-vasak{
+    width: 33.3%;
+    text-align: center;
+    border: solid 1px white;
+  }
+
+  .footer-kesk{
+    width: 33.3%;
+    text-align: center;
+    border: solid 1px white;
+  }
+
+  .footer-parem{
+    width: 33.3%;
+    text-align: center;
+    border: solid 1px white;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color:white;
   }
 
 @media screen and (max-width:600px) {

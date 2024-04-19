@@ -1,4 +1,5 @@
 import './styles/index.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -6,19 +7,19 @@ function Navbar() {
         <div className='navbar'>
             <h1 className='left'>Logo</h1>
             <div className='right'>
-                <a className='navbar-btn' href='/'>
+                <Link className='navbar-btn' to='/'>
                     Avaleht
-                </a>
-                <a className='navbar-btn' href='/'>
+                </Link>
+                <Link className='navbar-btn' to='/'>
                     Teenused
-                </a>
-                <a className='navbar-btn' href='/'>
+                </Link>
+                <Link className='navbar-btn' to='/kontaktid'>
                     Kontakt
-                </a>
+                </Link>
             </div>
         </div>
         </>
     )
-  };
-  
-  export default Navbar;
+};
+
+export default Navbar;

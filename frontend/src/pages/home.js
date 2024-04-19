@@ -1,4 +1,5 @@
 import Navbar from '../navbar.js'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -16,9 +17,15 @@ function Home() {
         </div>
         <div className='footer-parem'>
           <h3>Lingid</h3>
-          <a href='/'>Teenused</a>
-          <br/>
-          <a href='/'>Kontakt</a>
+          <Link className='navbar-btn' to='/'>
+            Avaleht
+          </Link>
+          <Link className='navbar-btn' to='/'>
+            Teenused
+          </Link>
+          <Link className='navbar-btn' to='/kontaktid'>
+            Kontakt
+          </Link>
         </div>
         
       </div>

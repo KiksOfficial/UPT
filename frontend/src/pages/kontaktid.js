@@ -8,8 +8,7 @@ function Kontaktid() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const emailInput = e.target.elements.Email;
-  
-    // Perform validation and set error message if needed
+    
     if (!isValidEmail(emailInput.value)) {
       setErrorMessage('Please enter a valid email address');
     } else if (emailInput.value.indexOf('@') === -1) {

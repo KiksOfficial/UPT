@@ -27,19 +27,19 @@ function Kontaktid() {
   return (
     <>
     <div className='kontaktid-content'>
-        <Navbar />
-        <h1>Kontaktid</h1>
-        <div className='kontaktid-card'>
-          <h1>Võtke meiega ühendust</h1>
-          <form onSubmit={handleSubmit} action="https://formsubmit.co/marcusariston@gmail.com" method="POST">
-            <input type='text' placeholder='Nimi' name='Nimi'></input>
-            <input type='email' placeholder='Email' name='Email'></input>
-            {errorMessage && <span className='error'>{errorMessage}</span>}
-            <textarea placeholder='Sõnum' className='kontaktid-textarea' name='Sõnum'></textarea>
-            <button type='submit' className='kontaktid-button'>Saada</button>
-          </form>
-        </div>
+    <Navbar />
+      <h1>Kontaktid</h1>
+      <div className='kontaktid-card'>
+        <h1>Võtke meiega ühendust</h1>
+        <form onSubmit={handleSubmit} action="https://formsubmit.co/marcusariston@gmail.com" method="POST">
+          <input type='text' placeholder='Nimi' name='Nimi'></input>
+          <input type='email' placeholder='Email' name='Email'></input>
+          {errorMessage && <span className='error'>{errorMessage}</span>}
+          <textarea placeholder='Sõnum' className='kontaktid-textarea' name='Sõnum'></textarea>
+          <button type='submit' className='kontaktid-button'>Saada</button>
+        </form>
       </div>
+    </div>
     </>
   );
 }

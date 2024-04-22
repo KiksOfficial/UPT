@@ -7,7 +7,7 @@ function Navbar() {
         <div className='navbar'>
             <h1 className='left'>Logo</h1>
             <div className='right'>
-                <Link className='navbar-btn' to='/'>
+                <Link className='navbar-btn-home' to='/'>
                     Avaleht
                 </Link>
                 <Link className='navbar-btn' to='/'>

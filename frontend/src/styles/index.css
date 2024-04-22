@@ -1,6 +1,11 @@
+
 body{
     margin:0;
     padding:0;
+    background-color: #EDF2F4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .navbar {
@@ -8,7 +13,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #95adbe;
+    background-color: white;
+    color:rgb(0, 0, 0);
   }
 
 .navbar-btn {
@@ -18,13 +24,36 @@ body{
     text-align: center;
     line-height: 50px;
     text-decoration: none;
-    background-color: #3c2a4d;
-    color: #e0f0ea;
+    background-color: #EDF2F4;
+    color: black;
+}
+
+.navbar-btn-home {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  background-color: #D90429;
+  color: #e0f0ea;
 }
 
 .navbar-btn:hover{
-    color:blue;
-    background-color: white;
+    color:red;
+    background-color: rgb(248, 248, 248);
+    transition: 0.3s;
+}
+
+.navbar-btn-home:hover{
+  color:white;
+  background-color: rgb(255, 0, 0);
+  transition: 0.3s;
+}
+
+.navbar-btn:hover{
+    color:#ffffff;
+    background-color: #D90429;
 }
   
   .left {
@@ -41,13 +70,14 @@ body{
   }
 
   .footer{
-    background-color: #3c2a4d;
+    background-color: #EF233C;
     position: absolute;
     width: 100%;
-    bottom:0;
     color: white;
     display: flex;
     flex-direction: row;
+    margin-top: 900px;
+    bottom:0;
     text-decoration: none;
   }
 
@@ -72,6 +102,8 @@ body{
   .footer a{
     text-decoration: none;
     color:white;
+    line-height: 25px;
+    margin-bottom:10px;
   }
 
   .kontaktid-card {
@@ -103,6 +135,16 @@ body{
     margin: 20px;
     width: 80%;
     height: 40px;
+  }
+
+  .error {
+    position: relative;
+    margin:0;
+    padding:0;
+    color: red;
+    left: 0;
+    top:0;
+    width: 100%;
   }
 
 @media screen and (max-width:600px) {

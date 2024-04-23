@@ -44,14 +44,30 @@ body{
     text-align: center;
     line-height: 50px;
     text-decoration: none;
-    background-color: #09184a;
-    color: #e0f0ea;
+    background-color: #c6c6c6;
+    color: #000000;
     transition: background-color 0.5s ease;
+}
+.navbar-btn-home {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  background-color: #09184a;
+  color: #e0f0ea;
+  transition: background-color 0.5s ease;
 }
 
 .navbar-btn:hover{
     color:#070F2B;
     background-color: white;
+}
+
+.navbar-btn-home:hover{
+  color:#070F2B;
+  background-color: white;
 }
   
   .left {

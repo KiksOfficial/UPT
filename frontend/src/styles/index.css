@@ -20,6 +20,7 @@ body{
   margin-top: 50px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  margin-left:100px;
 
 }
 
@@ -98,6 +99,29 @@ body{
     line-height: 25px;
     margin-bottom:10px;
   }
+
+  .home-ylemine{
+    display:flex;
+    flex-direction:row;
+    border: solid;
+  }
+
+  .tilt {
+    transition: all 0.1s ease;
+    cursor: pointer;
+    margin-top:50px;
+    margin-left: 200px;
+    border: solid;
+    width:500px;
+}
+
+.tilt__content {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
 
   .kontaktid-card {
     padding: 20px;

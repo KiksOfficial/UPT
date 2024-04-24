@@ -19,14 +19,21 @@ body{
 
 .home1{
   margin-left: 0px;
-  border: white solid;
   width: 30%;
   text-align: left;
   margin-top: 50px;
   word-wrap: break-word;
   overflow-wrap: break-word;
   margin-left:100px;
+}
 
+.home1 a{
+  text-decoration: none;
+  color:white;
+}
+
+.home1 a:hover{
+  color:rgb(170, 170, 170)
 }
 
 .navbar {
@@ -124,15 +131,17 @@ body{
     display:flex;
     flex-direction:row;
     border: solid;
+    height:40%
   }
 
   .tilt {
     transition: all 0.1s ease;
     cursor: pointer;
-    margin-top:50px;
+    margin-top:60px;
     margin-left: 200px;
     border: solid;
     width:500px;
+    border:transparent;
 }
 
 .tilt__content {

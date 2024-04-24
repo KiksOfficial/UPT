@@ -1,3 +1,4 @@
+console.log('balls')
 const tiltEls = document.querySelectorAll('.tilt')
 
 const tiltMove = (x, y) => `perspective(500px) scale(1.1) rotateX(${x}deg) rotateY(${y}deg)`
@@ -19,3 +20,5 @@ tiltEls.forEach(tilt => {
 
     tilt.addEventListener('mouseout', () => tilt.style.transform = tiltMove(0, 0))
 })
+
+console.log('no more balls')

@@ -31,11 +31,15 @@ function Home() {
         </ul>
       </div>
       <div className='home-kesk-parem'>
-        <h1>Pilku püüdva veebilehe omadused</h1>
+        <h1>Pilkupüüdva veebilehe omadused</h1>
       </div>
     </div>
 
     <script src="../tilt.js"></script>
+
+    <div className='home-alumine'>
+      <h1>Hpome</h1>
+    </div>
       </div>
       <div className='footer'>
         <div className='footer-vasak'>

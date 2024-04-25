@@ -21,13 +21,25 @@ function Home() {
         </div>
     </div>
     <div className='home-kesk'>
-      
+      <div className='home-kesk-vasak'>
+        <h1>Mis teenuseid me pakume?</h1>
+        <ul>
+          <li>Kodulehtede koostamine</li>
+          <li>Kodulehtede koostamine</li>
+          <li>Kodulehtede koostamine</li>
+          <li>Kodulehtede koostamine</li>
+        </ul>
+      </div>
+      <div className='home-kesk-parem'>
+        <h1>Pilku püüdva veebilehe omadused</h1>
+      </div>
     </div>
 
     <script src="../tilt.js"></script>
       </div>
       <div className='footer'>
         <div className='footer-vasak'>
+          <h3>Võtke meiega ühendust</h3>
           <p>example@gmail.com</p>
         </div>
         <div className='footer-kesk'></div>

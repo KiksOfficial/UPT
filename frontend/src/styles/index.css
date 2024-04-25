@@ -130,8 +130,24 @@ body{
   .home-ylemine{
     display:flex;
     flex-direction:row;
-    border: solid;
     height:40%
+  }
+
+  .home-kesk{
+    height:40%;
+    padding-top:50px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.home-kesk-vasak{
+  padding-left:100px;
+  background-image: linar-gradient(#181648, #eaeaea);
+  }
+
+  .home-kesk-parem{
+    margin-left:100px;
   }
 
   .tilt {

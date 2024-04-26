@@ -1,6 +1,8 @@
 import Navbar from '../navbar.js';
 import { Link } from 'react-router-dom';
 import '../tilt.js'
+import '../styles/home.css'
+import '../styles/index.css'
 
 function Home() {
   return (
@@ -11,8 +13,11 @@ function Home() {
         <div className='home1'>
           <h1>Silmapaistva välimusega veebilehed mõistliku hinnaga!</h1>
           <p>
-          Loome silmapaistvaid veebilehti, mis haaravad külastajate tähelepanu ja pakuvad suurepärast kasutajakogemust. Meie fookuses on disaini ja funktsionaalsuse sümbioos, mis aitab teie ettevõttel võrgus esile tõusta. Usaldage meid oma veebipresenssi loomisel ja laske meie meeskonnal muuta teie visioon reaalsuseks.</p>
-          <a href='/kontaktid'>Võtke meiega ühendust</a>
+          Loome silmapaistvaid veebilehti, mis haaravad külastajate tähelepanu ja pakuvad suurepärast kasutajakogemust.</p>
+          <p>Meie fookuses on disaini ja funktsionaalsuse sümbioos, mis aitab teie ettevõttel võrgus esile tõusta.</p>
+          <p>Usaldage meid oma veebipresenssi loomisel ja laske meie meeskonnal muuta teie visioon reaalsuseks.</p>
+          <br/>
+          <a href='/kontaktid'>Kirjutage meile</a>
         </div>
         <div className="tilt">
         <div className="tilt__content">
@@ -31,15 +36,41 @@ function Home() {
         </ul>
       </div>
       <div className='home-kesk-parem'>
-        <h1>Pilkupüüdva veebilehe omadused</h1>
+        <h4>Veebidisain</h4>
+        <p>
+          Pakume professionaalset veebidisaini teenust, mis rõhutab teie brändi isiksust ja tagab suurepärase kasutajakogemuse. Kasutades kaasaegseid tehnoloogiaid ja disainiprintsiipe, loome kodulehti alates kontseptsioonist kuni käivitamiseni, pakkudes teile paindlikkust, tehnilist tuge ja rahuldust.
+        </p>
       </div>
     </div>
 
     <script src="../tilt.js"></script>
 
     <div className='home-alumine'>
-      <h1>Hpome</h1>
-    </div>
+      <div className='home-alumine-image'>
+        <div className='hea-veebileht1'>
+        <h4>Kasutajasõbralik disain</h4> 
+        <p>
+          Veebileht peaks olema lihtne navigeerida ja kasutada. Menüüd, lingid ja muud elemendid peaksid olema hästi paigutatud ja kergesti leitavad.
+        </p>
+        <h4>Kiire laadimisaeg</h4>
+        <p>Kiire laadimisaeg on oluline, et tagada kasutajatele sujuv kogemus. Veebileht peaks laadima kiiresti nii arvutis kui ka mobiilseadmetes.</p>
+        <h4>Reageeriv disain</h4>
+        <p> Veebileht peaks olema kohandatav erinevatele seadmetele ja ekraanisuurustele, tagades optimaalse kogemuse nii arvutis, nutitelefonis kui ka tahvelarvutis</p>
+        <h4>SEO-sõbralik</h4>
+        <p>Hea veebileht on optimeeritud otsingumootorite jaoks, et olla leitav ja saavutada kõrgemaid positsioone otsingutulemustes.</p>
+        </div>
+        <div className='hea-veebileht2'>
+          <h4>Kvaliteetne sisu</h4>
+          <p>Hea veebileht sisaldab asjakohast, huvitavat ja informatiivset sisu, mis vastab külastajate vajadustele ja püüab nende tähelepanu.</p>
+          <h4>Visuaalne atraktiivsus</h4>
+          <p>Professionaalne ja atraktiivne visuaalne disain aitab luua positiivset esmamuljet ja meelitada külastajate tähelepanu.</p>
+          <h4>Hea navigeerimine</h4>
+          <p> Veebileht peaks olema hästi struktureeritud ja varustatud selge navigeerimisega, mis aitab külastajatel leida vajalikku teavet kiiresti ja lihtsalt.</p>
+          <h4>Interaktiivsus</h4>
+          <p>Interaktiivsed elemendid, nagu vormid, nuppudele klikkimine, animatsioonid jne, võivad parandada kasutajakogemust ja suurendada kaasatust.</p>
+        </div>
+      </div>
+       </div>
       </div>
       <div className='footer'>
         <div className='footer-vasak'>
